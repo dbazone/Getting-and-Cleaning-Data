@@ -1,14 +1,15 @@
 ## ReadMe file for "Getting and Cleaning Data" assignment
 
-### This script is written and tested under R version 3.2.0
+This script is written and tested under R version 3.2.0
 
-### Script will automatically download the input data file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  in your current working folder
+Script will automatically download the input data file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  in your current working folder
 
-### Script will unzip the file as well.
+Script will unzip the file as well.
 
-### It will create a flat file output_avg_data.txt in the current working directory which is the output of the script.
+It will create a flat file output_avg_data.txt in the current working directory which is the output of the script.
 
 ### Please see following Assignment task along with their solution. 
+
 		*Task 1 - Merges the training and the test sets to create one data set.
 		Solution 1 - data is merged from training and testing data frame and loaded in complete_dataset variable. Please search for "Solution 1" keyword in R script to locate where this action being performed. 
 		
@@ -27,7 +28,7 @@
 		
 
 
-### PLEASE DONT RUN THE SCRIPT IF MODIFIED INPUT DATA FILE ALREADY EXIST IN YOUR CURRENT WORKING FOLDER. If data file or input folder exist script will delete them and repopulate with the fresh data. If you have modified the input files in your current working folder then please run this script in a new working folder. 
+PLEASE DONT RUN THE SCRIPT IF MODIFIED INPUT DATA FILE ALREADY EXIST IN YOUR CURRENT WORKING FOLDER. If data file or input folder exist script will delete them and repopulate with the fresh data. If you have modified the input files in your current working folder then please run this script in a new working folder. 
 
-### Script requires plyr package. 
+Script requires plyr package. 
 
